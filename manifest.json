@@ -1,7 +1,7 @@
 {
     "manifest-version": 2,
-    "name" : "",
-    "description" : "",
+    "name" : "Fact Check",
+    "description" : "Fact check news articles, statements, etc.",
     "version" : "1.0",
     "browser_action": {
         "defualt_icon" : "/images/fc icon.ai",
