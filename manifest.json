@@ -1,0 +1,10 @@
+{
+    "manifest-version": 2,
+    "name" : "",
+    "description" : "",
+    "version" : "1.0",
+    "browser_action": {
+        "defualt_icon" : "/images/fc icon.ai",
+        "default_popup": "popup.html"
+    }
+}
