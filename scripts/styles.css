@@ -1,0 +1,16 @@
+h1{
+    font-family: soleil;
+    font-size: 20px;
+    color: #0d1b2a;
+    text-align: center;
+}
+body {
+    background-color: #e0e1dd;
+    width: 400px;
+    height: 240px;
+}
+input {
+    background-color: #cccdc9;
+    width: 400px;
+    border: 0px;
+}

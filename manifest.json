@@ -4,7 +4,7 @@
     "description" : "Fact check news articles, statements, etc.",
     "version" : "1.0",
     "browser_action": {
-        "defualt_icon" : "/images/FC icon.png",
-        "default_popup": "popup.html"
+        "default_icon" : "/images/fcion2.png",
+        "default_popup": "/scripts/popup.html"
     }
 }
