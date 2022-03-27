@@ -13,7 +13,7 @@ function SendStatement(){
     // const s = JSON.stringify(statement);
     $.ajax({
         type: "POST",
-        url:"http://127.0.0.1:5500/test?value="+ s,
+        url:"/test?value=" + s,
         dataType:"json",
         contentType: "application/json; charset=utf-8",
         data: JSON.stringify(s),
