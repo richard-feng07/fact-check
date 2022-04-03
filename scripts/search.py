@@ -8,8 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    # return render_template("popup.html")
-    return 0
+    return render_template("popup.html")
 
 @app.route("/test", methods=["POST"])
 def test():
