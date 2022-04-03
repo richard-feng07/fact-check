@@ -9,14 +9,14 @@ document.addEventListener("DOMContentLoaded", function(){
 })
 
 function SendStatement(){
-    const s = document.getElementById("statement").value;
+    var s = document.getElementById("statement").value;
     // const s = JSON.stringify(statement);
     $.ajax({
         type: "POST",
-        url:"/test?value=" + s,
+        data: JSON.stringify(s),
+        url:"http://127.0.0.1:5500/",
         dataType:"json",
         contentType: "application/json; charset=utf-8",
-        data: JSON.stringify(s),
         // success:function (data) {
         //     var reply = data.reply;
         //     if(reply=="success")
